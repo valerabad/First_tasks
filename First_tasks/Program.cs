@@ -28,8 +28,7 @@ namespace First_tasks
                         Console.WriteLine("Enter yor father name ");
                         string fatherName = Console.ReadLine();
 
-                        Console.WriteLine("+---------------------------------------------+");
-                        //Console.WriteLine('\u007C'+ lastName +'\t'+ name + '\t' + fatherName + '\u007C');
+                        Console.WriteLine("+---------------------------------------------+");                        
                         Console.WriteLine("\u007C {0}\t{1}\t{2} \u007C", lastName, name, fatherName);
                         Console.WriteLine("+---------------------------------------------+");
                         break;
