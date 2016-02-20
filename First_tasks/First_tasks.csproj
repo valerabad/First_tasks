@@ -47,6 +47,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="task0.cs" />
     <Compile Include="task1.cs" />
+    <Compile Include="task11.cs" />
+    <Compile Include="task12.cs" />
+    <Compile Include="task13.cs" />
     <Compile Include="task2.cs" />
     <Compile Include="task3.cs" />
     <Compile Include="task4.cs" />

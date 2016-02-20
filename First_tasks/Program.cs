@@ -59,6 +59,25 @@ namespace First_tasks
                             task9();
                         }
                         break;
+                    case 11:
+                        {
+                            Console.WriteLine("Enter N:");
+                            double N = Convert.ToDouble(Console.ReadLine());
+                            task11(N);
+                        }
+                        break;
+                    case 12:
+                        {
+                            Console.WriteLine("Enter N:");
+                            double N = Convert.ToDouble(Console.ReadLine());
+                            task12(N);
+                        }
+                        break;
+                    case 13:
+                        {                           
+                            task13();
+                        }
+                        break;
                     default: System.Environment.Exit(0);
                         break;
                 }
