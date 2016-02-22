@@ -18,9 +18,12 @@ namespace First_tasks
             Console.WriteLine("Random: {0} ", dice_1);
 
             if (dice_1 >= 1 && dice_1 <= 5) win = 0;
-            if (dice_1 >= 6 && dice_1 <= 8) win = bet;
-            if (dice_1 >= 9 && dice_1 <= 11) win = 2 * bet;
-            if (dice_1 == 12) win = bet * 10;
+            else
+                if (dice_1 >= 6 && dice_1 <= 8) win = bet;
+                else
+                    if (dice_1 >= 9 && dice_1 <= 11) win = 2 * bet;
+                    else
+                        win = bet * 10;
 
             Console.WriteLine("your winnings = {0}", win);
         }

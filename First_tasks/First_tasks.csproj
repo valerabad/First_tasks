@@ -50,6 +50,11 @@
     <Compile Include="task11.cs" />
     <Compile Include="task12.cs" />
     <Compile Include="task13.cs" />
+    <Compile Include="task14.cs" />
+    <Compile Include="task15.cs" />
+    <Compile Include="task16.cs" />
+    <Compile Include="task17.cs" />
+    <Compile Include="task18.cs" />
     <Compile Include="task2.cs" />
     <Compile Include="task3.cs" />
     <Compile Include="task4.cs" />

@@ -9,30 +9,30 @@ namespace First_tasks
     {
         static public void task7()
         {
+            int[] divider = new int[] {2,3,5,7};
             Console.WriteLine("Enter number for checking: ");
-            byte number = Convert.ToByte(Console.ReadLine());
-            bool fl = false;
-            int result = 0;
-            if (number % 2 == 0)
-                Console.WriteLine("Even number - not prime number!");
-            else
+            int number = Convert.ToInt16(Console.ReadLine());
+            bool flag = false;
+            for (int i = 2; i <= Math.Sqrt(number); i++)
             {
-                for (int i = 2; i <= number - 1; i++)
-                    if (number % i == 0)
-                    {
-                        fl = false;
-                        break;
-                    }
-                    else
-                    {
-                        fl = true;
-                        //break;
-                    }
-                if (fl)
-                    Console.WriteLine("Prime number");
-                else
-                    Console.WriteLine("Not prime number!");
+                if ((number % i) == 0)
+                {                    
+                    flag = false;
+                    break;
+                }
+                else 
+                    flag = true;
             }
+            switch (flag)
+            {
+                case true:
+                    Console.WriteLine("Prime number");
+                    break;
+                case false:
+                    Console.WriteLine("Number isn`t prime");
+                    break;
+            }
+            
         }
     }
 }

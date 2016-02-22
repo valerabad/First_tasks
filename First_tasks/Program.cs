@@ -11,7 +11,7 @@ namespace First_tasks
         {
             while (true)
             {               
-                Console.WriteLine("Select task 1..10 or 0 for exit");
+                Console.WriteLine("Select task 0..18 or other number for exit");
                 int task;
                 task = Convert.ToInt16(Console.ReadLine());
                 switch (task)
@@ -76,6 +76,31 @@ namespace First_tasks
                     case 13:
                         {                           
                             task13();
+                        }
+                        break;                    
+                    case 14:
+                        {
+                            task14();
+                        }
+                        break;
+                    case 15:
+                        {
+                            task15();
+                        }
+                        break;
+                    case 16:
+                        {
+                            task16();
+                        }
+                        break;
+                    case 17:
+                        {
+                            task17();
+                        }
+                        break;
+                    case 18:
+                        {
+                            task18();
                         }
                         break;
                     default: System.Environment.Exit(0);

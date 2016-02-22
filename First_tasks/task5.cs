@@ -30,6 +30,12 @@ namespace First_tasks
                 case 5:
                     Console.WriteLine("Friday");
                     break;
+                case 6:
+                    Console.WriteLine("Sanday");
+                    break;
+                case 7:                  
+                    Console.WriteLine("Saturday");
+                    break;
                 default: Console.WriteLine("Number better 7");
                     break;
             }
