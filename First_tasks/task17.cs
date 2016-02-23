@@ -10,12 +10,11 @@ namespace First_tasks
         static public void task17()
         {            
             Console.WriteLine("Rabits\tGeese");
-            int geese = 64;
-            int r_res = 0, g_res = geese;
-            for (int rabbits = 0; rabbits <= 64; rabbits = rabbits + 4)
+            int geeseLegs = 64;         
+            for (int rabbitsLegs = 0; rabbitsLegs <= 64; rabbitsLegs = rabbitsLegs + 4)
             {
-                Console.WriteLine(rabbits / 4 + "\t" + geese / 2);
-                geese = geese - 4;
+                Console.WriteLine(rabbitsLegs / 4 + "\t" + geeseLegs / 2);
+                geeseLegs = geeseLegs - 4;
             }  
         }
     }

@@ -15,14 +15,21 @@ namespace First_tasks
                 int task;
                 task = Convert.ToInt16(Console.ReadLine());
                 switch (task)
-                {                   
-                    case 0: task0();
+                {
+                    case 0:
+                        {
+                            task0();
+                        }
                         break;
                     case 1:
-                        task1();
+                        {
+                            task1();
+                        }
                         break;
                     case 2:
-                        task2();
+                        {
+                            task2();
+                        }
                         break;
                     case 3:
                         {
