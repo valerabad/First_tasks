@@ -66,6 +66,11 @@ namespace First_tasks
                             task9();
                         }
                         break;
+                    case 10:
+                        {
+                            task10();
+                        }
+                        break;
                     case 11:
                         {
                             Console.WriteLine("Enter N:");
