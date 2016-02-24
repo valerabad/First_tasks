@@ -1,0 +1,13 @@
+C:\Users\HP\AppData\Local\Temporary Projects\First_tasks\bin\Debug\First_tasks.exe
+C:\Users\HP\AppData\Local\Temporary Projects\First_tasks\bin\Debug\First_tasks.pdb
+C:\Users\HP\AppData\Local\Temporary Projects\First_tasks\obj\x86\Debug\First_tasks.exe
+C:\Users\HP\AppData\Local\Temporary Projects\First_tasks\obj\x86\Debug\First_tasks.pdb
+C:\Users\HP\Desktop\Course\First_tasks\First_tasks\obj\x86\Debug\First_tasks.exe
+C:\Users\HP\Desktop\Course\First_tasks\First_tasks\obj\x86\Debug\First_tasks.pdb
+C:\Users\HP\Desktop\Course\First_tasks\First_tasks\bin\Debug\First_tasks.exe
+C:\Users\HP\Desktop\Course\First_tasks\First_tasks\bin\Debug\First_tasks.pdb
+C:\Users\HP\Documents\GitHub\First_tasks\First_tasks\obj\x86\Debug\First_tasks.exe
+C:\Users\HP\Documents\GitHub\First_tasks\First_tasks\obj\x86\Debug\First_tasks.pdb
+C:\Users\HP\Documents\GitHub\First_tasks\First_tasks\bin\Debug\First_tasks.exe
+C:\Users\HP\Documents\GitHub\First_tasks\First_tasks\bin\Debug\First_tasks.pdb
+C:\Users\HP\Documents\GitHub\First_tasks\First_tasks\obj\x86\Debug\First_tasks.csprojResolveAssemblyReference.cache
